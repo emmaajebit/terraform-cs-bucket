@@ -7,8 +7,8 @@ variable "bucket_name" {
   description = "A list of unique names for the GCP storage buckets."
   type        = list(string)
   default     = [
-    "my-test-bucket-latest8",
-    "mytestbucket88"
+    "my-test-bucket-latest8999",
+    "mytestbucket8888"
 
   ]
 }
