@@ -15,10 +15,8 @@ provider "google" {
 
 terraform {
   cloud {
-    organization = "Teenops"
-
     workspaces {
-      name = "TeenopsBoss"
+      name = "mobility-base-storage"
     }
   }
 }
