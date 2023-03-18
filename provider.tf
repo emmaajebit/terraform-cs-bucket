@@ -15,6 +15,8 @@ provider "google" {
 
 terraform {
   cloud {
+    organization = "sami123123123"
+
     workspaces {
       name = "mobility-base-storage"
     }
